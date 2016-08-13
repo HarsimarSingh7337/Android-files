@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.second.FindLrgeNo" >
+
+    <TextView android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fln"
+        android:textSize="24sp"
+        android:textStyle="bold" 
+        android:layout_marginStart="50dp"/>
+    
+    
+    <TextView  android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:text="@string/fn"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="30dp"
+        android:inputType="text"/>
+        
+    <EditText android:id="@+id/et1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" 
+        android:inputType="number"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="40dp"/>
+    
+    
+    <TextView  android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:text="@string/sn"
+        android:layout_below="@+id/tv1"
+          android:layout_marginTop="20dp"/>
+    
+    <EditText android:id="@+id/et2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/tv2"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"/>
+    
+    
+    <TextView android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:text="@string/tn"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="20dp"/>
+    
+    <EditText android:id="@+id/et3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" 
+        android:inputType="number"
+        android:layout_toRightOf="@+id/tv3"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="40dp"/>
+    
+    <TextView android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:text="@string/res"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="80dp"/>
+    
+    <EditText android:id="@+id/et4"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" 
+        android:inputType="number"
+        android:layout_toRightOf="@+id/tv4"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="80dp"/>
+    
+    <Button android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:text="@string/clck"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="20dp"/>
+    
+</RelativeLayout>

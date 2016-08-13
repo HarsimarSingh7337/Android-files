@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practise.Colour_Changer" >
+
+    
+    <LinearLayout android:id="@+id/ll1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" 
+        android:layout_alignParentTop="true"
+        android:background="@color/seagreen"
+        android:gravity="center">
+        
+        <TextView android:id="@+id/t1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/welcome"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:textColor="@color/white" />"
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll1">
+        
+     <TextView android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ta"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"/>
+     
+     <Button
+         android:id="@+id/red"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:text="Red"
+         android:background="@drawable/bg4"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="80dp"
+         android:textSize="24sp" />
+    
+     <Button
+         android:id="@+id/blue"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:text="Blue"
+         android:background="@drawable/bg4"
+         android:layout_marginStart="150dp"
+         android:layout_marginTop="80dp"
+         android:textSize="24sp" />
+     
+     <Button
+         android:id="@+id/green"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:text="Green"
+         android:background="@drawable/bg4"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="160dp"
+         android:textSize="24sp" />
+    
+     <Button
+         android:id="@+id/magenta"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:text="Mazenta"
+         android:background="@drawable/bg4"
+         android:layout_marginStart="150dp"
+         android:layout_marginTop="160dp"
+         android:textSize="24sp" />
+    
+     <Button
+         android:id="@+id/black"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:text="Black"
+         android:background="@drawable/bg4"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="240dp"
+         android:textSize="24sp" />
+     
+     
+     <Button
+         android:id="@+id/yellow"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:text="yellow"
+         android:background="@drawable/bg4"
+         android:layout_marginStart="150dp"
+         android:layout_marginTop="240dp"
+         android:textSize="24sp" />
+     
+     <Button
+         android:id="@+id/cyan"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:text="Cyan"
+         android:background="@drawable/bg4"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="320dp"
+         android:textSize="24sp" />
+     
+     <Button
+         android:id="@+id/white"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:text="White"
+         android:background="@drawable/bg4"
+         android:layout_marginStart="150dp"
+         android:layout_marginTop="320dp"
+         android:textSize="24sp" />
+     
+    </RelativeLayout>
+     
+    
+</RelativeLayout>

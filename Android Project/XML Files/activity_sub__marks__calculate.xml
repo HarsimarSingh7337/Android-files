@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.First.Sub_Marks_Calculate">
+    
+    <TextView  android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smc"
+        android:textStyle="bold"
+        android:textSize="18sp" 
+       android:layout_marginBottom="20dp"/>
+    
+    <LinearLayout android:id="@+id/ll1" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_below="@+id/tv" >
+        
+    <TextView  android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eng"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp" 
+        android:layout_marginEnd="20dp"/>
+    
+    
+    <EditText android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ht" 
+        android:inputType="number" />
+    
+  </LinearLayout>
+    
+    <LinearLayout android:id="@+id/ll2"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll1">
+   
+    <TextView  android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hin"
+        android:textStyle="bold" 
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="31dp"/>
+    
+    <EditText android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ht" 
+        android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll3"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll2">
+    
+    <TextView  android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phy"
+        android:textStyle="bold" 
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"/>
+    
+    <EditText android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ht" 
+        android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll4"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll3">
+    
+    <TextView  android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chm"
+        android:textStyle="bold" 
+        android:layout_marginBottom="15dp"/>
+    
+    <EditText android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ht" 
+        android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll5"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll4">
+    
+    <TextView  android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mth"
+        android:textStyle="bold" 
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="24dp"/>
+    
+    <EditText android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ht" 
+        android:inputType="number"/>
+    </LinearLayout>
+    
+    <Button android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calc"
+        android:layout_below="@+id/ll5" 
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+    
+    <LinearLayout android:id="@+id/ll6"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_below="@+id/btn"
+        android:layout_marginTop="15dp" >
+    
+    <TextView  android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" 
+        android:layout_marginEnd="30dp"
+        android:text="@string/totl"/>
+    
+    <EditText android:id="@+id/et6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+    
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll7"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll6"
+        android:layout_marginTop="2dp">
+    
+    <TextView  android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/avg"
+        android:textStyle="bold" 
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="10dp"/>
+    
+    <EditText android:id="@+id/et7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll8"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll7">
+    
+    <TextView  android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grd"
+        android:textStyle="bold" 
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="24dp"/>
+    
+    <EditText android:id="@+id/et8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    </LinearLayout>
+ 
+ 
+    
+    
+</RelativeLayout>
